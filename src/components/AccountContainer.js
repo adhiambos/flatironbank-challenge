@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import TransactionsList from "./TransactionsList";
-import Search from "./Search";
+import TransactionsList from "./TransactionList";
+import Search from "./search";
 import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
