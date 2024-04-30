@@ -98,12 +98,18 @@ function App() {
   );
 
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <SearchBar onSearch={handleSearch} />
-      <AddTransactionForm onAddTransaction={handleAddTransaction} />
-      <TransactionTable transactions={filteredTransactions} />
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%' }}>
+        <div style={{ flex: 1 }}>
+          <TransactionTable transactions={filteredTransactions} />
+        </div>
+        <div style={{ flex: 1 }}>
+          <AddTransactionForm onAddTransaction={handleAddTransaction} />
+        </div>
+      </div>
     </div>
-  );
+ );
 }
 
 export default App;
