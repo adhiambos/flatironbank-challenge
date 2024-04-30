@@ -1,4 +1,4 @@
-// ComponentSearchBar
+// Component SearchBar
 import React from 'react';
 
 const SearchBar = ({ onSearch }) => {
