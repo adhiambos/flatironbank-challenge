@@ -1,0 +1,11 @@
+/* AddTransactionForm.module.css */
+.addTransactionForm {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 20px;
+}
+
+.addTransactionForm input,
+.addTransactionForm button {
+ margin-bottom: 10px;
+}
